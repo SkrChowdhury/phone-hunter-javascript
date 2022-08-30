@@ -21,11 +21,29 @@
     </header>
 
     <main class="container">
+      <!-- display search result
+         -->
       <section>
-          <div id="phones-container" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="mb-3 w-50">
+          <input
+            type="email"
+            class="form-control"
+            id="search-field"
+            placeholder="Search Phone"
+          />
 
-          </div>
+          <button id="btn-search" class="btn btn-primary">Search</button>
+        </div>
+      </section>
+      <section>
+        <div
+          id="phones-container"
+          class="row row-cols-1 row-cols-md-3 g-4"
+        ></div>
 
+        <div>
+            <h3 class="text-warning"> No Phone Found, Please Try Again </h3>
+        </div>
       </section>
     </main>
 
