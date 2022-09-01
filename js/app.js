@@ -13,7 +13,7 @@ const displayPhones = (phones, dataLimit) => {
   if (dataLimit && phones.length > 10) {
     phones = phones.slice(0, 10);
     showAll.classList.remove('d-none');
-  } else {
+  } else {  
     showAll.classList.add('d-none');
   }
 
